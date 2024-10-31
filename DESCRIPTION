@@ -5,14 +5,18 @@ Date: 2024-10-29
 Authors@R: 
     person("Joselyn", "Chavez-Fuentes", "C.","joselynchavezf@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Este paquete tiene funciones para análisis de RNAseq. También genera gráficas.
+Description: Este paquete tiene funciones para análisis de RNAseq. También genera gráficas. Este es nuestro primer paquete para el curso de R 2024.
 License: MIT + file LICENSE
 URL: https://github.com/josschavezf/runRNAseq
 BugReports: https://support.bioconductor.org/tag/runRNAseq
-biocViews: Software, Sequencing 
+biocViews: Software, Sequencing, RNASeq
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.4.1)
+Imports: 
+    ComplexHeatmap
 Suggests: 
     BiocStyle,
     knitr,
