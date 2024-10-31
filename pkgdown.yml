@@ -1,0 +1,10 @@
+pandoc: '3.2'
+pkgdown: 2.1.1
+pkgdown_sha: ~
+articles:
+  ejemplo_de_uso: ejemplo_de_uso.html
+  runRNAseq: runRNAseq.html
+last_built: 2024-10-31T16:33Z
+urls:
+  reference: https://josschavezf.github.io/runRNAseq/reference
+  article: https://josschavezf.github.io/runRNAseq/articles
