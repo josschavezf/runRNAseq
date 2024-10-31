@@ -3,11 +3,11 @@ Title: Análisis de RNAseq
 Version: 0.99.0
 Date: 2024-10-29
 Authors@R: 
-    person("Joselyn", "Chavez-Fuentes", "C.","joselynchavezf@gmail.com", role = c("aut", "cre"),
+    person("Joselyn", "Chavez-Fuentes", ,"joselynchavezf@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Este paquete tiene funciones para análisis de RNAseq. También genera gráficas. Este es nuestro primer paquete para el curso de R 2024.
 License: MIT + file LICENSE
-URL: https://github.com/josschavezf/runRNAseq
+URL: https://github.com/josschavezf/runRNAseq, https://josschavezf.github.io/runRNAseq/
 BugReports: https://support.bioconductor.org/tag/runRNAseq
 biocViews: Software, Sequencing, RNASeq
 Encoding: UTF-8

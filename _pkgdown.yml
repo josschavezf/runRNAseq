@@ -1,0 +1,28 @@
+url: https://josschavezf.github.io/runRNAseq/
+template:
+  bootstrap: 5
+  theme: breeze-light
+  bslib:
+    bootswatch: lux
+    pkgdown-nav-height: 100px
+    base_font: {google: "Roboto"}
+    heading_font: {google: "Roboto Slab"}
+    code_font: {google: "JetBrains Mono"}
+
+
+navbar:
+  structure:
+    left:  [intro, reference, articles, news]
+    right: [github, search]
+
+footer:
+  structure:
+    left: package
+    right: developed_by
+
+reference:
+- title: "Primeras funciones"
+  desc: >
+    Primeras funciones del workshop 2024
+  contents:
+  - subset_heatmap

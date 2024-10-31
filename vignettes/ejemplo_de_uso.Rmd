@@ -1,0 +1,19 @@
+---
+title: "Mi primer ejemplo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Mi primer ejemplo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r, fig.alt="Un histograma con las cuentas de RNA"}
+library(runRNAseq)
+```
