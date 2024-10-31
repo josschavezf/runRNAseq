@@ -9,7 +9,7 @@ subset_heatmap(x, mediciones = NULL, grupos = NULL)
 \arguments{
 \item{x}{matriz}
 
-\item{mediciones}{character. Líneas de la matriz a graficar.}
+\item{mediciones}{character. Lineas de la matriz a graficar.}
 
 \item{grupos}{character. Columnas de la matriz a graficar.}
 }

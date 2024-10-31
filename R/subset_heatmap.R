@@ -1,7 +1,7 @@
 #' Crear un subgrupo de la matriz y genera un heatmap
 #'
 #' @param x matriz
-#' @param mediciones character. Líneas de la matriz a graficar.
+#' @param mediciones character. Lineas de la matriz a graficar.
 #' @param grupos character. Columnas de la matriz a graficar.
 #' @importFrom ComplexHeatmap Heatmap
 #'
@@ -35,5 +35,5 @@ subset_heatmap <- function(x, mediciones = NULL,
         cluster_columns = FALSE,
         heatmap_legend_param = list(title = "valores"))
 
-    message("Generación del heatmap, listo")
+    message("Generacion del heatmap, listo")
 }
